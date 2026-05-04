@@ -7,7 +7,8 @@
    playwright install
 
 ## How to Run
-In Terminal run :
+In Terminal :
+
 "python test_automation.py --excel "test_automation/Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 20000 --retries 25 --retry-wait-ms 2500 --type-delay-ms 0 --slow-mo-ms 400 --save-every 1 --keep-open"
                      
 
