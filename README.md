@@ -5,25 +5,8 @@ Automated test script using **Python + Playwright** and test data from an **Exce
 ## Prerequisites
 - **Python 3.11+**
 - **pip**
-- (Recommended) A virtual environment tool (venv)
-
-## Setup
-
-### 1) Create and activate a virtual environment (recommended)
-
-**Windows (PowerShell)**
-```powershell
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-```
-
-**macOS / Linux**
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-### 2) Install dependencies
+  
+### Install dependencies
 ```bash
 python -m pip install --upgrade pip
 pip install playwright openpyxl
