@@ -3,8 +3,10 @@
 ## Setup Instructions
 1. Install Python 3.11+
 2. Install dependencies:
-   pip install playwright openpyxl
-   playwright install
+
+pip install -U pip
+pip install playwright openpyxl
+playwright install
 
 ## How to Run
 In Terminal :
