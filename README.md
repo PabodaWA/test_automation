@@ -5,7 +5,9 @@
 2. Install dependencies:
 
 pip install -U pip
+
 pip install playwright openpyxl
+
 playwright install
 
 ## How to Run
