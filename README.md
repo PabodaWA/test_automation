@@ -21,6 +21,11 @@ playwright install
 3. In the terminal, `cd` into the folder that contains `test_automation.py`.
 4. Run one of the commands below depending on your terminal type.
 
+### Example command in VS code
+```Terminal
+python test_automation.py --excel "test_automation/Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 20000 --retries 25 --retry-wait-ms 2500 --type-delay-ms 0 --slow-mo-ms 400 --save-every 1 --keep-open
+```
+
 ### Example command (macOS/Linux/Git Bash/WSL)
 > Update the Excel path if your file is located elsewhere.
 
