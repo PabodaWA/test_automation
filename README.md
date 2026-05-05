@@ -58,6 +58,7 @@ python test_automation.py `
 ## Project Structure
 - `test_automation.py` — main automation script
 - `Assignment 1 - Test cases.xlsx` — test case definitions
+- `IT23569522.xlsx` - If you want to check each test case's sinhala input covered and evidance
 
 ## Notes / Troubleshooting
 - If Playwright browsers are missing, run:
