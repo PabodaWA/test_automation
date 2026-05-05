@@ -7,6 +7,12 @@ Automated test script using **Python + Playwright** and test data from an **Exce
 - **pip**
   
 ### Install dependencies
+
+
+##Open terminal inside VS Code:
+
+Terminal → New Terminal
+
 ```bash
 python -m pip install --upgrade pip
 pip install playwright openpyxl
@@ -26,19 +32,19 @@ playwright install
 python test_automation.py --excel "test_automation/Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 20000 --retries 25 --retry-wait-ms 2500 --type-delay-ms 0 --slow-mo-ms 400 --save-every 1 --keep-open
 ```
 
-### Example command (macOS/Linux/Git Bash/WSL)
-> Update the Excel path if your file is located elsewhere.
+### Example command (Windows PowerShell)
 
-```bash
-python test_automation.py \
-  --excel "Assignment 1 - Test cases.xlsx" \
-  --url "https://www.pixelssuite.com/chat-translator" \
-  --wait-ms 20000 \
-  --retries 25 \
-  --retry-wait-ms 2500
+
+ 1. Open PowerShell
+
+Press Win + X → Click Windows PowerShell
+
+ 2. Go to your project folder
+
+```pwershell
+cd D:\test_automation
 ```
 
-### Example command (Windows PowerShell)
 ```powershell
 python test_automation.py `
   --excel "Assignment 1 - Test cases.xlsx" `
